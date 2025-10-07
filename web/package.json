@@ -1,0 +1,33 @@
+{
+  "name": "assistent-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.ts --mode development",
+    "build": "webpack --config webpack.config.ts --mode production",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'no linter configured'"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "css-loader": "7.1.2",
+    "html-webpack-plugin": "5.6.3",
+    "postcss": "8.4.47",
+    "postcss-loader": "8.1.1",
+    "style-loader": "4.0.0",
+    "tailwindcss": "3.4.14",
+    "ts-loader": "9.5.1",
+    "typescript": "5.6.3",
+    "webpack": "5.95.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "5.0.4"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
+
+
